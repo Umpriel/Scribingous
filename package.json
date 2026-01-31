@@ -1,0 +1,33 @@
+{
+	"name": "scribingous",
+	"version": "0.0.1",
+	"description": "A super lightweight, highly opinionated site template for blogs and small static sites.",
+	"author": "umpriel",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/umpriel/scribingous.git"
+	},
+	"keywords": [
+		"blog", "static", "site", "template"
+	],
+	"type": "module",
+	"engines": {
+		"bun": ">=1.0.0"
+	},
+	"scripts": {
+		"copy:cui": "cp node_modules/construct-ui/lib/index.css public/cui.css",
+		"build": "cp node_modules/construct-ui/lib/index.css public/cui.css && bun run build.js",
+		"dev": "cp node_modules/construct-ui/lib/index.css public/cui.css && bun run build.js --dev",
+		"preview": "bunx serve public -p 8091"
+	},
+	"dependencies": {
+		"construct-ui": "^0.3.4",
+		"highlight.js": "^11.11.1",
+		"marked": "^17.0.1",
+		"mithril": "^2.3.8"
+	},
+	"devDependencies": {
+		"esbuild": "^0.25.12"
+	}
+}
