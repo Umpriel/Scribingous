@@ -1,5 +1,5 @@
-export const DEMO_BASE_URL = 'https://umpriel.github.io/scribingous';
-export const GITHUB_REPO = 'umpriel/scribingous';
+export const DEMO_BASE_URL = 'https://umpriel.github.io/Scribingous';
+export const GITHUB_REPO = 'umpriel/Scribingous';
 
 export function isDemoSite() {
   const base = DEMO_BASE_URL.replace(/\/$/, '');
