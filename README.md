@@ -78,7 +78,6 @@ Edit the markdown string in `src/data/about.js`. Same markdown and code-highligh
 ## Customizing
 
 - **Site name and nav:** `src/Layout.js` (brand text “Scribingous”, nav links).
-- **Demo-site fork count:** The navbar shows a GitHub fork count only when the app is served from the official demo URL. Configure `DEMO_BASE_URL` and `GITHUB_REPO` in `src/config.js`; forks and local runs do not show it.
 - **Document title:** `<title>` in `public/index.html`.
 - **Theme:** CSS variables in `public/theme.css` (derived from Apple Human Interface Guidelines); dark/light toggle in the header.
 - **Syntax highlighting:** `public/hljs-theme.css` (based on highlight.js GitHub style; edit or replace for another theme).
