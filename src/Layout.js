@@ -1,6 +1,5 @@
 import m from 'mithril';
 import { ThemeToggle } from './ThemeToggle';
-import { ForkCount } from './ForkCount';
 
 export const Layout = {
   view(vnode) {
@@ -12,7 +11,6 @@ export const Layout = {
           m('nav.cui-nav', [
             m(m.route.Link, { href: '/', class: 'cui-nav-link' + (currentRoute === '/' ? ' active' : '') }, 'Home'),
             m(m.route.Link, { href: '/about', class: 'cui-nav-link' + (currentRoute === '/about' ? ' active' : '') }, 'About'),
-            m(ForkCount),
           ]),
           m('div.cui-header-actions', [
             m(ThemeToggle),
