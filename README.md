@@ -49,7 +49,7 @@ Then open http://localhost:8091. For deployment, serve the `public/` folder with
 export default {
   slug: 'my-post',
   title: 'My post',
-  date: '2025-02-01',
+  date: '2026-02-01',
   excerpt: 'A short summary.',
   body: `
 Your post content in **Markdown**. Code blocks get syntax highlighting.

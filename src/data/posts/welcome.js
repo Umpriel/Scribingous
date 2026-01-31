@@ -1,7 +1,7 @@
 export default {
   slug: 'welcome',
   title: 'Welcome',
-  date: '2025-01-31',
+  date: '2026-01-31',
   excerpt: 'A quick tour of Scribingous: markdown, code highlighting, and how to add your own posts.',
   body: `
 **Scribingous** is a super lightweight, highly opinionated static writing site. You get Markdown posts, syntax-highlighted code blocks, and a dark/light theme.
