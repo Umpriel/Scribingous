@@ -9,7 +9,7 @@ export const aboutBody = `
 
 **Credits are due to:**
 
-- [Mithril](https://mithriljs.org) — framework
+- [Mithril](https://mithril.js.org/) — framework
 - [Construct UI](https://vrimar.github.io/construct-ui) — components
 - [marked](https://marked.js.org) — markdown
 - [highlight.js](https://highlightjs.org) — code highlighting
